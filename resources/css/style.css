@@ -72,7 +72,36 @@ h1 {
 }
 
 #main {
+  background: white;
+}
 
+#main .container {
+  margin: auto;
+}
+
+#icons {
+  display: flex;
+  justify-content: space-between;
+  width: 33rem;
+  margin: auto;
+}
+
+.icon {
+  padding: 3rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.paper-icon {
+  width: 3.5rem;
+}
+
+.ruler-icon, .truck-icon {
+  width: 5rem;
 }
 
 footer {
